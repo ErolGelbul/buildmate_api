@@ -1,6 +1,6 @@
 bn<div id="top"></div>
 
-<div style="text-align:center"><img src="images/cover_image.jpg" /></div>
+<div style="text-align:center"><img src="images/cover_image2.jpg" /></div>
 
 ## 1 Introduction
 
@@ -237,13 +237,13 @@ The USERNAME_FIELD is used for authentication.
 
 ### User Model:
 
-| Field | Parameters | Type |
-|-------|------------|------|
-| email | max_length=255, unique=True | EmailField |
-| name | max_length=255 | CharField |
-| is_active | default=True | BooleanField |
-| is_staff | default=False | BooleanField |
-| USERNAME_FIELD | "email" | CharField |
+| Field          | Parameters                  | Type         |
+| -------------- | --------------------------- | ------------ |
+| email          | max_length=255, unique=True | EmailField   |
+| name           | max_length=255              | CharField    |
+| is_active      | default=True                | BooleanField |
+| is_staff       | default=False               | BooleanField |
+| USERNAME_FIELD | "email"                     | CharField    |
 
 ### Run the tests:
 
