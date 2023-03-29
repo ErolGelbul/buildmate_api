@@ -1,4 +1,4 @@
-bn<div id="top"></div>
+<div id="top"></div>
 
 <div style="text-align:center"><img src="images/cover_image2.jpg" /></div>
 
